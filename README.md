@@ -1,11 +1,11 @@
-# 🏆 Streaming Wars: Platform Strategy & Predicted Revenue
+# Streaming Wars: Platform Strategy & Predicted Revenue
 
-## 🎥 Project Summary
+## Project Summary
 This project analyzes how movies perform across streaming platforms and predicts box office revenue using IMDb-based data. It combines platform matching logic, ROI calculations, and regression-based modeling to deliver a business-focused, data-driven dashboard in Tableau.
 
 ---
 
-## 🛠 Tools & Languages
+## Tools & Languages
 - **Python** – pandas, scikit-learn, matplotlib  
 - **SQL** – MySQL Workbench for early filtering  
 - **Tableau** – for all visual storytelling  
@@ -13,7 +13,7 @@ This project analyzes how movies perform across streaming platforms and predicts
 
 ---
 
-## 🔍 Focus Areas
+## Focus Areas
 - Assigning movies to optimal streaming platforms  
 - Calculating ROI and modeling predicted gross  
 - Analyzing viewer ratings and genre trends  
@@ -21,15 +21,17 @@ This project analyzes how movies perform across streaming platforms and predicts
 
 ---
 
-## 🧠 Key Features
-- 🎯 **Platform Matching Logic** based on genre, rating, and runtime  
-- 💸 **Predicted Gross Modeling** from budget, rating, and runtime  
-- 🎬 **Top Genres by Platform** visualized via grid and bar charts  
-- 🏆 **Top Directors by Average Gross**  
-- 📈 **Release Trends Over Time**  
-- 🔥 Uniform **orange–red–gold** color theme for dashboard visuals
+## Key Features
+- **Platform Matching Logic** based on genre, rating, and runtime  
+- **Predicted Gross Modeling** from budget, rating, and runtime  
+- **Top Genres by Platform** visualized via grid and bar charts  
+- **Top Directors by Average Gross**  
+- **Release Trends Over Time**  
+- Uniform **orange–red–gold** color theme for dashboard visuals
 
 ---
+
+
 
 ## 💻 Code Preview
 ```python
@@ -56,7 +58,29 @@ df['suggestedPlatform'] = df.apply(assign_platform, axis=1)
 
 ## 📊 Tableau Dashboard  
 > Hosted on Tableau Public  
-> 🔗 [Insert your dashboard link here]
+> 🔗 [https://public.tableau.com/app/profile/ruona.ogrih/viz/FilmROI/StreamingROIDashboard]
+
+- Genre x Platform Grid  
+- Average Viewer Rating by Platform  
+- Predicted Gross Bubble Chart  
+- Top Directors by Gross  
+- Release Trends Line Chart  
+- Suggested Platform Pie Chart
+
+---
+
+## Repo Structure
+```
+📁 Streaming-Wars-Project/
+├── README.md
+├── imdb_data.csv
+├── imdb_with_roi.csv
+├── platform_assignment.py
+├── images/
+│   ├── dashboard_cover.png
+│   ├── genre_grid.png
+│   └── predicted_gross.png
+```]
 
 - Genre x Platform Grid  
 - Average Viewer Rating by Platform  
