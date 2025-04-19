@@ -4,7 +4,22 @@
 This project analyzes how movies perform across streaming platforms and predicts box office revenue using IMDb-based data. It combines platform matching logic, ROI calculations, and regression-based modeling to deliver a business-focused, data-driven dashboard in Tableau.
 
 ---
-
+Key Insights
+- Prime Video Dominates in Genre Breadth.
+    With over 1,000 titles, Prime Video had the widest genre variety, appearing across nearly every top genre combo.
+- HBO Max Delivers the Highest ROI
+    despite a smaller title count. HBO Max led in average return on investment, proving that quality beats quantity.
+- Predicted Gross Tracks Strongly with Budget & Ratings.
+    Movies with budgets above $100M and ratings over 8.0 consistently projected grosses exceeding $500M in the model.
+- Director Impact is Huge.
+Names like James Cameron and the Russo Brothers averaged over $1.5B in box office gross per film, highlighting the power of star directors.
+- Post 2010 Streaming Surge,
+release volume climbed sharply after, ultimately peaking before COVID-19 which caused a noticeable dip between 2020–2021.
+- Genre-Platform Relationships Are Clear
+	•	Netflix favors action/thriller blends
+	•	Disney+ focuses on animation-heavy content
+	•	HBO Max leans into drama and prestige genres
+ 
 ## Tools & Languages
 - **Python** – pandas, scikit-learn, matplotlib  
 - **SQL** – MySQL Workbench for early filtering  
