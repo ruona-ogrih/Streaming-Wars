@@ -72,7 +72,9 @@ df['suggestedPlatform'] = df.apply(assign_platform, axis=1)
 ---
 
 ## 📊 Tableau Dashboard  
-> Hosted on Tableau Public  
+> Hosted on Tableau Public
+<img width="1164" alt="Screenshot 2025-05-21 at 1 19 27 PM" src="https://github.com/user-attachments/assets/e9d2a60e-282a-4ebb-bd3e-567743c5f407" />
+
 > 🔗 [https://public.tableau.com/app/profile/ruona.ogrih/viz/FilmROI/StreamingROIDashboard]
 
 - Genre x Platform Grid  
@@ -84,37 +86,5 @@ df['suggestedPlatform'] = df.apply(assign_platform, axis=1)
 
 ---
 
-## Repo Structure
-```
-📁 Streaming-Wars-Project/
-├── README.md
-├── imdb_data.csv
-├── imdb_with_roi.csv
-├── platform_assignment.py
-├── images/
-│   ├── dashboard_cover.png
-│   ├── genre_grid.png
-│   └── predicted_gross.png
-```]
-
-- Genre x Platform Grid  
-- Average Viewer Rating by Platform  
-- Predicted Gross Bubble Chart  
-- Top Directors by Gross  
-- Release Trends Line Chart  
-- Suggested Platform Pie Chart
 
 ---
-
-## 📁 Repo Structure
-```
-📁 Streaming-Wars-Project/
-├── README.md
-├── imdb_data.csv
-├── imdb_with_roi.csv
-├── platform_assignment.py
-├── images/
-│   ├── dashboard_cover.png
-│   ├── genre_grid.png
-│   └── predicted_gross.png
-```
